@@ -2,9 +2,15 @@
   "name": "@lukadev/buffer",
   "packageManager": "yarn@3.0.2",
   "main": "dist/lib/index.js",
+  "lint-staged": {
+    "*.ts": ["prettier --write", "eslint --fix"]
+  },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.18.11",
     "@types/node": "10",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "pinst": "^2.1.6",
@@ -13,6 +19,8 @@
   },
   "scripts": {
     "build": "tsc && api-extractor run",
-    "prettier": "prettier --write ."
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   }
 }

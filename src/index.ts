@@ -1,19 +1,19 @@
 /**
  * @public
  */
-export const getPublic = () => 'Its Public!'
+export const getPublic = (): string => 'Its Public!'
 
 /**
  * @internal
  */
-export const getInternal = () => 'Its Internal!'
+export const getInternal = (): string => 'Its Internal!'
 
 /**
  * @beta
  */
-export const getBeta = () => 'Its Beta!'
+export const getBeta = (): string => 'Its Beta!'
 
 /**
  * @alpha
  */
-export const getAlpha = () => 'Its Alpha!'
+export const getAlpha = (): string => 'Its Alpha!'
