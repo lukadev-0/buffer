@@ -4,18 +4,16 @@
 
 ```ts
 
-// @alpha (undocumented)
+// @alpha
 export const getAlpha: () => string;
 
-// @beta (undocumented)
+// @beta
 export const getBeta: () => string;
 
-// Warning: (ae-internal-missing-underscore) The name "getInternal" should be prefixed with an underscore because the declaration is marked as @internal
-//
-// @internal (undocumented)
-export const getInternal: () => string;
+// @internal
+export const _getInternal: () => string;
 
-// @public (undocumented)
+// @public
 export const getPublic: () => string;
 
 // (No @packageDocumentation comment for this package)

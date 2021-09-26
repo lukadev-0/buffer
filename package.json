@@ -3,7 +3,10 @@
   "packageManager": "yarn@3.0.2",
   "main": "dist/lib/index.js",
   "lint-staged": {
-    "*.ts": ["prettier --write", "eslint --fix"]
+    "*.ts": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.18.11",

@@ -172,7 +172,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@lukadev/buffer!getBeta:var",
-          "docComment": "/**\n * @beta\n */\n",
+          "docComment": "/**\n * Returns the string 'Its Beta!'\n *\n * @beta\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -193,7 +193,7 @@
         {
           "kind": "Variable",
           "canonicalReference": "@lukadev/buffer!getPublic:var",
-          "docComment": "/**\n * @public\n */\n",
+          "docComment": "/**\n * Returns the string 'Its Public!'\n *\n * @public\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
