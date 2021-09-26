@@ -1,4 +1,9 @@
 /**
+ * Utilities for building and reading buffers.
+ * @packageDocumentation
+ */
+
+/**
  * Returns the string 'Its Public!'
  * @public
  */
